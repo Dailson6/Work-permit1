@@ -1,0 +1,537 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.26;
+    margin: 0;
+    padding: 0;
+    background-color: gray ;
+    
+  }
+
+  .container {
+    max-width: 89%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    height: 100%;
+    margin-top: 10px;
+    
+  }
+
+  /* Adicionando regras de mídia para tornar o container responsivo */
+@media (min-width: 768px) {
+.container {
+    max-width: 720px; /* Por exemplo, ajuste o valor conforme necessário para a largura máxima desejada */
+}
+}
+
+@media (min-width: 992px) {
+.container {
+    max-width: 960px; /* Por exemplo, ajuste o valor conforme necessário para a largura máxima desejada */
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1140px; /* Por exemplo, ajuste o valor conforme necessário para a largura máxima desejada */
+}
+}
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: px;
+    font-weight: bold;
+  }
+  label.Avaliação{
+   position: center;
+  }
+
+
+  input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: red;
+  }
+
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: red;
+  }
+  .time{
+    color: red;
+    position: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+    text-align: center;
+
+  }
+
+  .plano-acao {
+    margin-top: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 25px;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    color: red;
+    max-width: 1122px;
+    max-height: 200px;
+    min-height: 25px;
+  }
+
+  .imagem {
+    margin-top: 20px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn1{
+   
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    border: none;
+  
+  }
+  .btn1:hover{
+    color: #0056b3;
+    
+  }
+  .btn2:hover{
+    color: #0056b3;
+   
+  }
+  .btn3:hover{
+    color: #0056b3;
+  }
+
+  .btn2{
+      
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    border: none;
+  }
+  .btn3{
+
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    margin-left: 83%;
+    border: none;
+
+  }
+
+  input.ventilação1{
+    width: 240px;
+  }
+  
+  .btn4{
+    margin-left: 60%;
+    width: 60px;
+
+    
+  }
+  .time00{
+    color: red;
+  }
+
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+
+  .checkbox-container {
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .checkbox-container {
+    display: flex; /* Torna os elementos filhos em um flex container */
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha conforme necessário */
+  }
+
+  .checkbox-label {
+    margin-right: 5px; /* Espaçamento entre os checkboxes */
+  }
+
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px; /* Espaçamento entre o checkbox e o texto */
+  }
+  .checkbox-input:checked + .checkbox-label::before {
+  content: '';
+    display: inline-block;
+    width: 15px; /* Largura da caixa de seleção */
+    height: 15px; /* Altura da caixa de seleção */
+    background-color: red; /* Cor de fundo quando a caixa de seleção está marcada */
+    border-radius: 0px; /* Arredondamento dos cantos da caixa de seleção */
+    margin-right: 5px; /* Espaçamento entre a caixa de seleção e o texto */
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black; /* Linha horizontal */
+ 
+  }
+  table.PET{
+    
+        border-collapse: collapse;
+        width: 100%;
+        border-top: none;
+      
+  }
+
+
+  table.verso{
+    border: none;
+    
+  }
+
+   
+  .Avaliação{
+    border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+  }
+
+  td.verso{
+   padding-left: 100px;
+  }
+
+  th,
+  td {
+    background-color: #f2f2f2;
+    font-size: 11px;
+    padding: 3px;
+    text-align: left;
+
+  }
+  h4.Trabalho1{
+    color: red;
+    text-align: center;
+
+    
+  }
+  h4.Trabalho2{
+    color: orange;
+    text-align: center;
+
+
+  }
+  h4.Trabalho3{
+    color: #FF7C80;
+    text-align: center;
+
+  }
+  h4.Trabalho4{
+    color: rgba(255, 187, 0, 0.767);
+    text-align: center;
+
+  }
+  h4.Trabalho5{
+    color: #0F5112;
+    text-align: center;
+
+  }
+  
+  h4.Trabalho6{
+    color: gray;
+    text-align: center;
+
+  }
+  h4.Trabalho7{
+    color: rgb(74, 74, 218);
+    text-align: center;
+
+  }
+  h4.Trabalho8{
+    color: gray;
+    text-align: center;
+
+  }
+
+  h4.seleçãodepre{
+
+    text-align: center;
+
+  }
+  div.trabalhoaquente{
+     display: none;       
+  }
+
+
+
+
+  div.trabalhoaltura{
+    display: none;
+  }
+
+  div.trabalhoicamento{
+    display: none;
+  }
+
+
+  div.trabalhoaleletrico{
+    display: none;
+  }
+  div.trabalhoalescavacao{
+    display: none;
+  }
+
+  div.trabalhoalespçoconf{
+    display: none;
+  }
+  div.trabalhoaafrio{
+    display: none;
+  }
+   .inputNumero{
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    color: red;
+   
+ 
+   }
+   .numeropermissão{
+    margin-left: 88%;
+    
+   }
+   .formpet{
+    padding: 5px;
+    display: none;
+   }
+   input.formpet{
+    padding: 5px;
+    
+    
+   }
+   input.Avaliação{
+    width: 100px;
+    height: 20px;
+   }
+   label.Avaliação{
+    text-align: center;
+    border: none;
+   }
+
+   #signatureCanvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 50px;
+   }
+
+   #signatureCanvas1 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 50px;
+   }
+
+   #signatureCanvas2 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 50px;
+  }
+   
+  #signatureCanvas3 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas4 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas5 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas6 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas7 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+   
+
+  #signatureCanvas7 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas8 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+
+  #signatureCanvas9 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas10 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+   
+
+  #signatureCanvas11 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas12 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas13 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+  }
+
+  #signatureCanvas14 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+    
+  }
+
+  #signatureCanvas15 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+    
+  }
+
+  #signatureCanvas16 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+    
+  }
+
+  #signatureCanvas17 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+    
+  }
+
+  #signatureCanvas18 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+    
+  }
+
+
+  #signatureCanvas19 {
+    border: 1px solid #000;
+    cursor: crosshair;
+    width: 200px;
+    height: 20px;
+    
+  }
+  
+  .botao11 {
+   position: fixed;
+   margin-left: 92%;
+   width: 100px;
+   text-decoration: none;
+   color: rgb(250, 55, 55);
+   text-align: center;
+   margin-top: 0px;
+   border-radius: 10px;
+   border: 1px solid black;
+
+  }
+
+  .botao11:hover{
+    color: rgb(255, 0, 0);
+  }
+  label.Aval{
+ text-align: center;
+  }
