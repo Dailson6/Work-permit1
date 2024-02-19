@@ -1,0 +1,30 @@
+.botao11 {
+    position: fixed;
+    margin-left: 92%;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(250, 55, 55);
+    text-align: center;
+    margin-top: 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+ 
+   }
+     /* Adicionando regras de mídia para tornar o container responsivo */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px; /* Por exemplo, ajuste o valor conforme necessário para a largura máxima desejada */
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .container {
+        max-width: 960px; /* Por exemplo, ajuste o valor conforme necessário para a largura máxima desejada */
+    }
+    }
+    
+    @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px; /* Por exemplo, ajuste o valor conforme necessário para a largura máxima desejada */
+    }
+  }
